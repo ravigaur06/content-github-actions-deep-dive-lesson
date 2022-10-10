@@ -88,6 +88,6 @@ jobs:
       - name: deploy site
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          folders: docs
           branch: gh-pages
+          folder: docs
 
