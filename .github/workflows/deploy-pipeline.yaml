@@ -70,4 +70,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           assest_path: ./${{ github.sha }}.zip
+          assest_name: source_code_with_libraries.zip
           assest_content_type: application/zip
